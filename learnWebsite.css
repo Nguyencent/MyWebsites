@@ -131,3 +131,25 @@ section .row img {
   left: 20%;
   top: 5px;
 }
+
+@media only screen and (min-width: 20em) and (max-width: 80em) {
+
+  .memberIcon {
+    top: 6%;
+    left: 66%;
+    width: 30%;
+  }
+  .memberRank {
+    display: none;
+  }
+  .memberBoxName {
+    font-size: 1.5em;
+    left: 0%;
+  }
+  .memberBoxRole {
+    left: 0%;
+  }
+  .memberBoxDesc {
+    left: 0%;
+  }
+}
