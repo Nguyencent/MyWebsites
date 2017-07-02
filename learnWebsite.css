@@ -72,6 +72,7 @@ header nav {
   border: 1px solid black;
   height: 50vh;
   margin: 0 4% 30px 4%;
+  overflow: hidden;
 }
 
 #testing h2 {
@@ -84,8 +85,9 @@ header nav {
 }
 
 section .row img {
+  border: 1px solid green;
   width: 100%;
-  overflow: hidden;
+
 }
 
 /*Members CSS*/
@@ -132,8 +134,49 @@ section .row img {
   top: 5px;
 }
 
-@media only screen and (min-width: 20em) and (max-width: 80em) {
+@media screen and (orientation:landscape) {
+  #testing img {
+    display: none;
+  }
+}
 
+@media only screen and (min-width: 20em) and (max-width: 30em) {
+  #testing img {
+    padding: 15%;
+    position: relative;
+    bottom: 20%;
+  }
+  .memberIcon {
+    top: 6%;
+    left: 66%;
+    width: 30%;
+  }
+  .memberRank {
+    display: none;
+  }
+  .memberBoxName {
+    font-size: 1.5em;
+    left: 0%;
+  }
+  .memberBoxRole {
+    left: 0%;
+  }
+  .memberBoxDesc {
+    left: 0%;
+  }
+}
+
+
+@media only screen and (min-width: 30em) and (max-width: 80em) {
+
+  #testing {
+    height: 30vh;
+  }
+  #testing img {
+    padding: 15%;
+    position: relative;
+    bottom: 9%;
+  }
   .memberIcon {
     top: 6%;
     left: 66%;
