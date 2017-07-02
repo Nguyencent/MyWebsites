@@ -2,6 +2,12 @@
   font-family: 'Roboto';
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 header p {
     margin: 0;
     display: inline;
@@ -144,6 +150,7 @@ section .row img {
 }
 
 @media only screen and (min-width: 20em) and (max-width: 30em) {
+
   #testing img {
     padding: 15%;
     position: relative;
