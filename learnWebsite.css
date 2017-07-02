@@ -85,7 +85,6 @@ header nav {
 }
 
 section .row img {
-  border: 1px solid green;
   width: 100%;
 
 }
@@ -134,9 +133,13 @@ section .row img {
   top: 5px;
 }
 
-@media screen and (orientation:landscape) {
+@media only screen and (min-width: 20em) and (max-width: 80em) and (orientation:landscape) {
   #testing img {
     display: none;
+  }
+  #testing h2 {
+    left: 5%;
+    right: 5%;
   }
 }
 
