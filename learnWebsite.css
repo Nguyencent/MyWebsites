@@ -13,6 +13,11 @@ header p {
     display: inline;
 }
 
+#readMoreP {
+  font-weight: 300;
+  font-size: 1.6em;
+}
+
 header .row {
   display: flex;
   align-items: center;
